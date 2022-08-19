@@ -80,6 +80,11 @@ main {
   animation: dosAnim 5s infinite;
 }
 
+.cajaTres {
+  background-color: brown;
+  animation: tresAnim 5s infinite;
+}
+
 @keyframes dosAnim {
   0% {
     transform: translate(0, 0);
@@ -95,5 +100,17 @@ main {
 
   100% {
     transform: translate(0, 0);
+  }
+}
+
+@keyframes tresAnim {
+  0% {
+    transform: rotate(0, 0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
